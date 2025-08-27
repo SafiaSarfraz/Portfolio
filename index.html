@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>
+      Safia Sarfraz | Data Analyst • AI/ML Enthusiast • Data Engineering Learner
+    </title>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-50 text-gray-900">
+    <!-- NAV -->
+<header class="bg-white shadow sticky top-0 z-40">
+  <div class="max-w-6xl mx-auto flex items-center justify-between px-6 py-4">
+    <div class="flex items-center gap-3">
+      <div class="text-indigo-600 font-bold text-lg">Safia Sarfraz</div>
+      <div class="text-sm text-gray-500 hidden sm:block">
+        Data Analyst • AI/ML • Data Engineering Learner
+      </div>
+    </div>
+
+    <!-- Desktop Menu -->
+    <nav class="hidden md:flex items-center gap-6">
+      <a href="#about" class="text-gray-700 hover:text-indigo-600">About</a>
+      <a href="#projects" class="text-gray-700 hover:text-indigo-600">Projects</a>
+      <a href="#experience" class="text-gray-700 hover:text-indigo-600">Experience</a>
+      <a href="#contact" class="text-gray-700 hover:text-indigo-600">Contact</a>
+    </nav>
+
+    <!-- Mobile toggle -->
+    <button id="navToggle" class="md:hidden text-2xl">☰</button>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div id="mobileNav" class="hidden md:hidden px-6 pb-6">
+    <a href="#about" class="block py-2">About</a>
+    <a href="#projects" class="block py-2">Projects</a>
+    <a href="#experience" class="block py-2">Experience</a>
+    <a href="#contact" class="block py-2">Contact</a>
+  </div>
+</header>
+
+      </div>
+    </header>
+
+    <!-- HERO (no image) -->
+    <section
+      class="min-h-screen flex items-center justify-center bg-gradient-to-br from-white to-gray-50 relative overflow-hidden"
+    >
+      <!-- subtle abstract shapes -->
+      <div
+        class="absolute -left-32 -top-24 w-72 h-72 rounded-full bg-indigo-50 opacity-60 blur-3xl"
+      ></div>
+      <div
+        class="absolute -right-28 -bottom-24 w-96 h-96 rounded-full bg-cyan-50 opacity-60 blur-3xl"
+      ></div>
+
+      <div class="max-w-4xl mx-auto text-center px-6">
+        <h1 class="text-4xl md:text-5xl font-extrabold text-indigo-700">
+          Hi, I’m <span class="text-cyan-600">Safia Sarfraz</span>
+        </h1>
+        <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
+          Data Analyst • AI/ML Enthusiast • Data Engineering Learner — I turn
+          data into insights and build models that help teams make better
+          decisions.
+        </p>
+
+        <div class="mt-8 flex flex-wrap justify-center gap-3">
+          <a
+            href="https://github.com/Safia1914/Resume"
+            download
+            class="px-6 py-3 bg-indigo-600 text-white rounded-lg shadow hover:bg-indigo-500 transition"
+            >Download Resume</a
+          >
+          <a
+            href="#projects"
+            class="px-6 py-3 border border-indigo-600 text-indigo-600 rounded-lg hover:bg-indigo-50 transition"
+            >View Projects</a
+          >
+        </div>
+
+        <!-- quick skill badges -->
+        <div class="mt-8 flex flex-wrap justify-center gap-3">
+          <span
+            class="px-3 py-1 bg-indigo-100 text-indigo-700 rounded-full text-sm"
+            >Python</span
+          >
+          <span
+            class="px-3 py-1 bg-indigo-100 text-indigo-700 rounded-full text-sm"
+            >SQL</span
+          >
+          <span
+            class="px-3 py-1 bg-indigo-100 text-indigo-700 rounded-full text-sm"
+            >Power BI</span
+          >
+          <span
+            class="px-3 py-1 bg-indigo-100 text-indigo-700 rounded-full text-sm"
+            >Machine Learning</span
+          >
+          <span
+            class="px-3 py-1 bg-indigo-100 text-indigo-700 rounded-full text-sm"
+            >Data Engineering</span
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="py-16 max-w-6xl mx-auto px-6">
+      <h2 class="text-2xl font-bold text-indigo-700 text-center">About Me</h2>
+      <p class="mt-4 text-center text-gray-600 max-w-3xl mx-auto">
+        I am a Data Analyst with strong foundations in BBIT and practical
+        experience in Python, SQL, Power BI, Excel, and ML techniques. I'm
+        expanding into AI/ML model development and data engineering to build
+        scalable data pipelines and production-ready analytics.
+      </p>
+    </section>
+
+    <!-- PROJECTS (ALL LISTED) -->
+    <section id="projects" class="py-16 bg-gray-100">
+      <div class="max-w-6xl mx-auto px-6">
+        <h2 class="text-2xl font-bold text-indigo-700 text-center mb-8">
+          Projects
+        </h2>
+
+        <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <!-- 1 -->
+          <article class="bg-white p-6 rounded-xl shadow">
+            <h3 class="font-semibold text-lg">
+              Email Spam Classifier (Python, NLP)
+            </h3>
+            <p class="text-sm text-gray-600 mt-2">
+              Built a machine learning model to classify spam vs. non-spam
+              emails using text preprocessing and Naïve Bayes.
+            </p>
+            <div class="mt-4 flex items-center justify-between">
+              <div class="text-xs text-gray-500">
+                Tech: Python · NLP · Naïve Bayes
+              </div>
+              <a
+                class="text-indigo-600 text-sm"
+                href="https://github.com/Safia1914/Email-Spam-Classification-using-Machine-Learning"
+                >GitHub ›</a
+              >
+            </div>
+          </article>
+
+          <!-- 2 -->
+          <article class="bg-white p-6 rounded-xl shadow">
+            <h3 class="font-semibold text-lg">
+              MNIST Digit Recognition (Deep Learning)
+            </h3>
+            <p class="text-sm text-gray-600 mt-2">
+              Developed a CNN model achieving high accuracy in handwritten digit
+              classification.
+            </p>
+            <div class="mt-4 flex items-center justify-between">
+              <div class="text-xs text-gray-500">
+                Tech: TensorFlow / Keras · CNN
+              </div>
+              <a
+                class="text-indigo-600 text-sm"
+                href="https://github.com/Safia1914/MNIST-Digit-Recognition"
+                >GitHub ›</a
+              >
+            </div>
+          </article>
+
+          <!-- 3 -->
+          <article class="bg-white p-6 rounded-xl shadow">
+            <h3 class="font-semibold text-lg">
+              Student Performance Prediction (Regression Models)
+            </h3>
+            <p class="text-sm text-gray-600 mt-2">
+              Applied linear and polynomial regression to predict student scores
+              based on study hours and external factors.
+            </p>
+            <div class="mt-4 flex items-center justify-between">
+              <div class="text-xs text-gray-500">
+                Tech: Python · scikit-learn · Regression
+              </div>
+              <a
+                class="text-indigo-600 text-sm"
+                href="https://github.com/Safia1914/Student-Performance-Prediction"
+                >GitHub ›</a
+              >
+            </div>
+          </article>
+
+          <!-- 4 -->
+          <article class="bg-white p-6 rounded-xl shadow">
+            <h3 class="font-semibold text-lg">
+              Olist E-Commerce Data Analytics (Python, SQL)
+            </h3>
+            <p class="text-sm text-gray-600 mt-2">
+              Performed EDA on 100k+ records, uncovering customer behavior &
+              sales trends; applied RFM segmentation for insights.
+            </p>
+            <div class="mt-4 flex items-center justify-between">
+              <div class="text-xs text-gray-500">Tech: Python · SQL · RFM</div>
+              <a
+                class="text-indigo-600 text-sm"
+                href="https://github.com/Safia1914/Olist-E-Commerce-Analysis-Project"
+                >GitHub ›</a
+              >
+            </div>
+          </article>
+
+          <!-- 5 -->
+          <article class="bg-white p-6 rounded-xl shadow">
+            <h3 class="font-semibold text-lg">
+              SQL Sales Performance Dashboard
+            </h3>
+            <p class="text-sm text-gray-600 mt-2">
+              Designed SQL queries to track KPIs (sales trends, top products,
+              regions) and built an interactive dashboard.
+            </p>
+            <div class="mt-4 flex items-center justify-between">
+              <div class="text-xs text-gray-500">Tech: SQL · BI</div>
+              <a
+                class="text-indigo-600 text-sm"
+                href="https://github.com/Safia1914/Sales-Analysis-Project-SQL-Python-"
+                >GitHub ›</a
+              >
+            </div>
+          </article>
+
+          <!-- 6 -->
+          <article class="bg-white p-6 rounded-xl shadow">
+            <h3 class="font-semibold text-lg">Excel Sales Dashboard</h3>
+            <p class="text-sm text-gray-600 mt-2">
+              Created an advanced Excel dashboard showcasing sales performance
+              and business KPIs with pivot tables and charts.
+            </p>
+            <div class="mt-4 flex items-center justify-between">
+              <div class="text-xs text-gray-500">
+                Tech: Excel · Pivot Tables · VBA (if any)
+              </div>
+              <a
+                class="text-indigo-600 text-sm"
+                href="https://github.com/Safia1914/Excel-sales-dashboard"
+                >GitHub ›</a
+              >
+            </div>
+          </article>
+
+          <!-- 7 -->
+          <article class="bg-white p-6 rounded-xl shadow">
+            <h3 class="font-semibold text-lg">Titanic Dataset EDA (Python)</h3>
+            <p class="text-sm text-gray-600 mt-2">
+              Conducted exploratory analysis, data visualization, and survival
+              prediction modeling.
+            </p>
+            <div class="mt-4 flex items-center justify-between">
+              <div class="text-xs text-gray-500">
+                Tech: Python · Pandas · Matplotlib · ML
+              </div>
+              <a
+                class="text-indigo-600 text-sm"
+                href="https://github.com/Safia1914/Titanic-EDA-using-Python-Pandas-Seaborn-Matplotlib-"
+                >GitHub ›</a
+              >
+            </div>
+          </article>
+
+          <!-- 8 -->
+          <article class="bg-white p-6 rounded-xl shadow">
+            <h3 class="font-semibold text-lg">
+              Data Cleaning with Pandas (Python)
+            </h3>
+            <p class="text-sm text-gray-600 mt-2">
+              Cleaned student data, handled nulls, generated stats, and
+              classified grades.
+            </p>
+            <div class="mt-4 flex items-center justify-between">
+              <div class="text-xs text-gray-500">Tech: Python · Pandas</div>
+              <a
+                class="text-indigo-600 text-sm"
+                href="https://github.com/Safia1914/data-cleaning-with-pandas"
+                >GitHub ›</a
+              >
+            </div>
+          </article>
+
+          <!-- 12 -->
+          <article class="bg-white p-6 rounded-xl shadow">
+            <h3 class="font-semibold text-lg">
+              Retail Sales Power BI Dashboard
+            </h3>
+            <p class="text-sm text-gray-600 mt-2">
+              Power BI dashboard visualizing retail sales KPIs, trends, and
+              interactive filters for deep dive analysis.
+            </p>
+            <div class="mt-4 flex items-center justify-between">
+              <div class="text-xs text-gray-500">
+                Tech: Power BI · DAX · Dashboarding
+              </div>
+              <a
+                class="text-indigo-600 text-sm"
+                href="https://github.com/Safia1914/Power-BI-Retail-Sales-Insights-Dashboard"
+                >GitHub / PBIX ›</a
+              >
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="py-16 max-w-6xl mx-auto px-6">
+      <h2 class="text-2xl font-bold text-indigo-700 text-center mb-6">
+        Experience
+      </h2>
+
+      <div class="space-y-4">
+        <div class="bg-white p-6 rounded-xl shadow">
+          <h3 class="font-semibold">
+            Artificial Intelligence Intern — Arch Technologies (Remote)
+          </h3>
+          <p class="text-sm text-gray-500 mt-1">Aug 2025 – Present</p>
+          <ul class="mt-3 list-disc list-inside text-gray-600 text-sm">
+            <li>Data cleaning & preprocessing to improve model accuracy.</li>
+            <li>EDA and visual storytelling for stakeholders.</li>
+          </ul>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl shadow">
+          <h3 class="font-semibold">
+            Data Analyst & ML Intern — Elevo Pathways (Remote)
+          </h3>
+          <p class="text-sm text-gray-500 mt-1">Jul 2025 – Present</p>
+          <ul class="mt-3 list-disc list-inside text-gray-600 text-sm">
+            <li>Built predictive models and automated dashboards.</li>
+            <li>Analyzed large datasets to uncover trends.</li>
+          </ul>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl shadow">
+          <h3 class="font-semibold">
+            Student Brand Ambassador — Aptitude Migration
+          </h3>
+          <p class="text-sm text-gray-500 mt-1">Sep 2024 – Jan 2025</p>
+        </div>
+      </div>
+    </section>
+<section
+  id="contact"
+  class="py-16 bg-gradient-to-r from-indigo-700 to-cyan-600 text-white"
+>
+  <div class="max-w-4xl mx-auto px-6">
+    <h2 class="text-2xl font-bold text-center mb-8">Get in Touch</h2>
+    <div class="grid md:grid-cols-2 gap-8">
+      
+      <!-- Contact Info -->
+      <div
+        class="bg-white text-gray-800 p-6 rounded-xl shadow border-t-4 border-indigo-600"
+      >
+        <h3 class="font-semibold text-lg">Contact Information</h3>
+        <p class="mt-3">📍 Lahore, Pakistan</p>
+        <p>
+          📧
+          <a href="mailto:safiasarfraz191@gmail.com" class="text-indigo-600"
+            >safiasarfraz191@gmail.com</a
+          >
+        </p>
+        <p>📞 +92 316 6548617</p>
+        <div class="mt-4 flex gap-4">
+          <a
+            class="text-indigo-600"
+            href="https://linkedin.com/in/safia-sarfraz-61160831b"
+            target="_blank"
+            >LinkedIn</a
+          >
+          <a
+            class="text-indigo-600"
+            href="https://github.com/Safia1914"
+            target="_blank"
+            >GitHub</a
+          >
+        </div>
+      </div>
+
+    <form
+      action="https://formspree.io/f/xdklowap"
+      method="POST"
+      class="bg-white text-gray-800 p-6 rounded-xl shadow border-t-4 border-cyan-600"
+    >
+      <h3 class="font-semibold text-lg">Send a message</h3>
+
+      <input
+        name="name"
+        type="text"
+        class="w-full mt-3 p-3 border rounded"
+        placeholder="Your name"
+        required
+      />
+
+      <input
+        name="email"
+        type="email"
+        class="w-full mt-3 p-3 border rounded"
+        placeholder="Your email"
+        required
+      />
+
+      <textarea
+        name="message"
+        rows="4"
+        class="w-full mt-3 p-3 border rounded"
+        placeholder="Message"
+        required
+      ></textarea>
+
+      <button
+        type="submit"
+        class="mt-4 w-full bg-indigo-600 text-white py-2 rounded hover:bg-indigo-500 transition"
+      >
+        Send Message
+      </button>
+    </form>
+
+    <!-- FOOTER -->
+    <footer class="py-8 text-center text-sm text-gray-500">
+      <div>
+        © <span id="year"></span> Safia Sarfraz — Data Analyst • AI/ML
+        Enthusiast
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+      // year
+      document.getElementById("year").textContent = new Date().getFullYear();
+
+      // mobile nav toggle
+      const navToggle = document.getElementById("navToggle");
+      const mobileNav = document.getElementById("mobileNav");
+      navToggle.addEventListener("click", () => {
+        mobileNav.classList.toggle("hidden");
+      });
+    </script>
+  </body>
+</html>
